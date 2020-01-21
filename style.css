@@ -1,0 +1,78 @@
+
+
+p {
+  color: black;
+  font-family: 'Gelasio', sans-serif;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+p2 {
+  color: brown;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+table {
+  width:90%;
+  max-width: 1200px;
+  min-width: 900px;
+}
+
+td {
+  border: 1px solid white;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.quote {
+  min-width: 275px;
+  max-width: 300px;
+  margin-left: 80px;
+  color: brown;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.justify {
+  text-align: left;
+}
+
+.st0 {
+  fill: white;
+}
+
+.st0:hover {
+  animation: colorchange .75s ease infinite;
+}
+
+.link:hover {
+  color: brown;
+  font-size: 19.5px;
+
+}
+
+.margin {
+  min-width: 8vw;
+}
+
+@keyframes colorchange {
+    0% {
+      fill: white;
+    }
+
+    50% {
+      fill: pink;
+    }
+
+    90% {
+      fill: pink;
+    }
+
+    100% {
+      fill: white;
+    }
+}
