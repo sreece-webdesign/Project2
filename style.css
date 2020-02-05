@@ -1,78 +1,179 @@
 
+/*BLOCKERS*/
+body {
+    background-color: dodgerBlue;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+html {
+    height: auto;
+    padding-bottom: 45%;
+}
+/*BLOCKERS*/
 
-p {
-  color: black;
-  font-family: 'Gelasio', sans-serif;
-  font-size: 19px;
-  line-height: 26px;
+.right {
+  text-align: right;
 }
 
-p2 {
-  color: brown;
+.bg {
+  height: 200vh;
+  width: 200vw;
+  z-index: 1;
+  position: absolute;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-image: url('pics/bgpeach.jpg');
+}
+
+.box {
+  position: absolute;
+  z-index: 2;
+}
+
+.title {
+  padding: 15%;
+  color: gold;
+}
+
+.title:hover {
+  color: yellow;
+}
+
+.title:active {
+  color: white;
+}
+
+h1 {
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  line-height: 38px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  color: dodgerBlue;
+  text-decoration: none;
+}
+
+a.visited {
+  text-decoration: none;
 }
 
 table {
-  width:90%;
-  max-width: 1200px;
-  min-width: 900px;
+  background-image: url('pics/bglegit.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-collapse: collapse;
+  height: 200%;
+  width: 200vw;
+}
+
+
+.please {
+  background-color: orange;
 }
 
 td {
-  border: 1px solid white;
-  padding: 20px;
-  max-width: 600px;
-}
-
-.quote {
-  min-width: 275px;
-  max-width: 300px;
-  margin-left: 80px;
-  color: brown;
   font-family: 'Lato', sans-serif;
-  text-align: left;
-  font-size: 26px;
-  line-height: 38px;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  outline: none;
 }
 
-.justify {
-  text-align: left;
+.tall {
+  height: 20vh;
 }
 
-.st0 {
-  fill: white;
+.open:hover {
+  height: 100px;
+  background-image: url('pics/butterOpen.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
 }
 
-.st0:hover {
-  animation: colorchange .75s ease infinite;
+.close:hover {
+  height: 100px;
+  background-image: url('pics/butterClose.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
 }
 
-.link:hover {
-  color: brown;
-  font-size: 19.5px;
-
+.open:active {
+  background-image: url('pics/butterWait.png');
 }
 
-.margin {
-  min-width: 8vw;
+.close:active {
+  background-image: url('pics/butterWait.png');
 }
 
-@keyframes colorchange {
-    0% {
-      fill: white;
-    }
-
-    50% {
-      fill: pink;
-    }
-
-    90% {
-      fill: pink;
-    }
-
-    100% {
-      fill: white;
-    }
+/*Flos*/
+.flo {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
 }
+
+.flo:hover {
+  outline: none;
+}
+
+
+
+.flo1 {
+  background-image: url('pics/flo/1.png');}
+.flo1:hover {
+  height: 100px;
+  background-image: url('pics/floHover/1.png');}
+
+
+.flo2 {
+  background-image: url('pics/flo/2.png');}
+.flo2:hover {
+height: 100px;
+  background-image: url('pics/floHover/2.png');}
+
+
+.flo3 {
+  background-image: url('pics/flo/3.png');}
+.flo3:hover {
+height: 100px;
+  background-image: url('pics/floHover/3.png');}
+
+
+.flo4 {
+  background-image: url('pics/flo/4.png');}
+.flo4:hover {
+  height: 100px;
+  background-image: url('pics/floHover/4.png');}
+
+
+.flo5 {
+  background-image: url('pics/flo/5.png');}
+.flo5:hover {
+height: 100px;
+  background-image: url('pics/floHover/5.png');}
+
+
+.flo6 {
+  background-image: url('pics/flo/3.png');}
+.flo6:hover {
+height: 100px;
+  background-image: url('pics/floHover/3.png');}

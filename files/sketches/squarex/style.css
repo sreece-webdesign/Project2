@@ -1,0 +1,35 @@
+
+
+p {
+  color: black;
+  font-family: 'Gelasio', sans-serif;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.S:hover {animation: colorchange 1s ease infinite;}
+.Q:hover {animation: colorchange 1s ease infinite;}
+.U:hover {animation: colorchange 1s ease infinite;}
+.A:hover {animation: colorchange 1s ease infinite;}
+.R:hover {animation: colorchange 1s ease infinite;}
+.E:hover {animation: colorchange 1s ease infinite;}
+
+.textbox {
+  width: 600px;
+  margin-top: 45px;
+  margin-left: 32px;
+}
+
+@keyframes colorchange {
+    0% {
+      fill: #5454;
+    }
+
+    50% {
+      fill: gray;
+    }
+
+    100% {
+      fill: #5454;
+    }
+}
